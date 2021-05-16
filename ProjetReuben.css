@@ -1,9 +1,10 @@
 body
 {
-      margin : 0;
-      font-family:Arial, Helvetica, sans-serif;
+    margin : 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+/* En tête */
 
 nav
 {
@@ -21,13 +22,13 @@ nav
 
 nav div
 {
-      display: inline-block;
-      vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-img{
-vertical-align: middle;
-
+img
+{
+    vertical-align: middle;
 }
 #logo > div > p
 {
@@ -61,8 +62,8 @@ nav ul
 
 nav ul img
 {
-      height: 25px;
-      margin: 0 15px;
+    height: 25px;
+    margin: 0 15px;
 }
 nav ul li:last-child img
 {
@@ -85,6 +86,8 @@ section
     margin: 100px;
 }
 
+/* About us */
+
 #aboutus
 {
     display: grid;
@@ -101,8 +104,8 @@ section
 }
 #aboutus h2
 {
-      font-weight: bold;
-      font-size: 35px;
+    font-weight: bold;
+    font-size: 35px;
 }
 #aboutus #experience
 {
@@ -125,19 +128,19 @@ section
 }
 #experience
 {
-     display:flex;
-     text-align: center;
-     vertical-align: middle;
+    display:flex;
+    text-align: center;
+    vertical-align: middle;
 }
 #experience > p
 {
-     font-size: 30px;
-     margin-top:  70px; 
-     font-weight: bold;
-     margin-left: 20px;
-     position: relative;
-     z-index: 5;
-     color: black;
+    font-size: 30px;
+    margin-top:  70px; 
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    z-index: 5;
+    color: black;
 }
 
 #experience .semibold p
@@ -148,15 +151,16 @@ section
 }
 #experience .years p:first-child
 {
-       margin-top: 70px;
+    margin-top: 70px;
 }
-#aboutus #square {
+#aboutus #square 
+{
     width: 175px;
     height: 175px;
     position: absolute;
     border: 5px solid #cee002;
     margin-top: -10px;
-   }
+}
 .flotte
 {
     float:right;
@@ -169,6 +173,9 @@ section
         display: none;
     }
 }
+
+
+/* Latest Project */
 
 #latestproject div ul
 {
@@ -210,25 +217,28 @@ section
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* From Our Great Clients */
+
 #fogc div
 {
     display: flex;
-     border: 1px solid black;
+    border: 1px solid black;
 }
 
 #fogc h1
 {
     color: black;
     font-size: 35px;
+    margin-top: 200px;
 }
 
 #fogc p
 {
-       width: 350px;
-      
-       text-align: justify;
-       padding: 12px;
-       margin: 50px; 
+    width: 350px;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px; 
 }
 #fogc ul
 {
@@ -243,11 +253,14 @@ section
     font-weight: bold;
 }
 
+/* Latest News */
+
 #latestnews h1
 {
     color: black;
     font-size: 35px;
 }
+
 #latestnews p
 {
     margin-left: 1300px;
@@ -269,6 +282,8 @@ section
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* Bas De Page */
 
 #liste
 {
