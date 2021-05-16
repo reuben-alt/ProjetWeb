@@ -1,0 +1,262 @@
+body
+{
+      margin : 0;
+      font-family:Arial, Helvetica, sans-serif;
+}
+
+
+nav
+{
+    top:0;
+    width:100%;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
+    margin-bottom: 25px;
+    z-index: 15;
+}
+
+nav div
+{
+      display: inline-block;
+      vertical-align: middle;
+}
+
+img{
+vertical-align: middle;
+
+}
+#logo > div > p
+{
+   margin: 0;
+}
+#logo > div > p:first-child
+{
+    font-size: x-large;
+}
+#logo > div > p:last-child
+{
+    margin-top: -10px;
+}
+
+#numero
+{
+    margin-left: 75px;    
+    font-size: smaller;
+    color: gray;
+}
+
+nav ul
+{
+    margin :0;
+    list-style: none;
+    display: flex;
+    float: right;
+    align-items: center;
+    line-height: 45px;
+}
+
+nav ul img
+{
+      height: 25px;
+      margin: 0 15px;
+}
+nav ul li:last-child img
+{
+    margin-left: 50px;
+}
+@media screen and (max-width: 960px) 
+{
+      #numero 
+      {
+            display: none;
+      }    
+}
+section
+{
+    margin: 100px;
+}
+
+#aboutus
+{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 10px ;
+    max-width: 70%;
+    margin: 0 auto;
+}
+#aboutus h1
+{
+    color: greenyellow;
+    font-size: 25x;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#aboutus h2
+{
+      font-weight: bold;
+      font-size: 35px;
+}
+#aboutus > div > p
+{
+    margin-top: 70px;
+    color: grey;
+    font-size: 20px;
+}
+#experience
+{
+     display:flex;
+     text-align: center;
+     vertical-align: middle;
+}
+#experience > p
+{
+     font-size: 30px;
+     margin-top:  70px; 
+     font-weight: bold;
+     margin-left: 20px;
+     position: relative;
+     z-index: 5;
+     color: black;
+}
+.semibold
+{
+    border: 3px greenyellow solid ;
+    width: 150px;
+    position:absolute;
+    height: 150px; 
+    margin-top:  30px ;   
+}
+#experience .years p
+{
+    margin: 0;
+    text-align: left;
+  
+}
+#experience .years p:first-child
+{
+       margin-top: 70px;
+}
+.flotte
+{
+    float:right;
+}
+
+@media screen and (max-width: 960px) 
+{
+    .flotte
+    {
+        display: none;
+    }
+}
+
+#latestproject div ul
+{
+    margin :0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+#latestproject div ul li
+{  
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#latestproject div ul li:last-child
+{
+    margin-left: 50px;
+    font-weight: lighter;
+}
+
+#latestproject h1
+{
+    color: black;
+    font-size: 35px;
+}
+
+#latestproject ul li
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#fogc div
+{
+    display: flex;
+     border: 1px solid black;
+}
+
+#fogc h1
+{
+    color: black;
+    font-size: 35px;
+}
+
+#fogc p
+{
+       width: 350px;
+      
+       text-align: justify;
+       padding: 12px;
+       margin: 50px; 
+}
+#fogc ul
+{
+    list-style: none;
+    display: flex;
+}
+
+#fogc ul li
+{ 
+    margin-left: 90px;
+    margin-right: 90px;
+    font-weight: bold;
+}
+
+#latestnews h1
+{
+    color: black;
+    font-size: 35px;
+}
+
+#latestnews ul
+{
+    margin :0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#latestnews ul li
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#liste
+{
+    display: flex;
+}
+#basdepage ul 
+{
+    
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    
+}
+#basdepage div ul li
+{   
+    gap: 10px ;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
