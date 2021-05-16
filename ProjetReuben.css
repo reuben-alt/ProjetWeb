@@ -68,6 +68,11 @@ nav ul li:last-child img
 {
     margin-left: 50px;
 }
+
+#accueil a
+{
+    width: 100%;
+}
 @media screen and (max-width: 960px) 
 {
       #numero 
@@ -172,6 +177,7 @@ section
     display: flex;
     align-items: center;
     float: right;
+    font-size: 20px;
 }
 
 #latestproject div ul li
@@ -179,11 +185,18 @@ section
     margin-left: 20px;
     margin-right: 20px;
     font-weight: bold;
+    margin-top: 10px;
+}
+#latestproject div ul li:first-child
+{
+    color: chartreuse;
 }
 #latestproject div ul li:last-child
 {
     margin-left: 50px;
-    font-weight: lighter;
+    font-weight:100;
+    font-style: italic;
+    color: darkgray;
 }
 
 #latestproject h1
@@ -235,6 +248,12 @@ section
     color: black;
     font-size: 35px;
 }
+#latestnews p
+{
+    margin-left: 1300px;
+    font-size: 20px ;
+    color: darkgray;
+}
 
 #latestnews ul
 {
@@ -270,6 +289,10 @@ section
     gap: 10px ;
     max-width: 70%;
     margin: 0 auto;
+}
+#basdepage div ul li:last-child
+{
+    display:flex;
 }
 
 
