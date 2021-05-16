@@ -99,6 +99,19 @@ section
       font-weight: bold;
       font-size: 35px;
 }
+#aboutus #experience
+{
+    margin-top: 200px;
+    display: flex;
+}
+
+#aboutus #experience p:first-child 
+{
+    font-size: 600%;
+    margin-left: 65px;
+    z-index: 5;
+}
+
 #aboutus > div > p
 {
     margin-top: 70px;
@@ -121,15 +134,8 @@ section
      z-index: 5;
      color: black;
 }
-.semibold
-{
-    border: 3px greenyellow solid ;
-    width: 150px;
-    position:absolute;
-    height: 150px; 
-    margin-top:  30px ;   
-}
-#experience .years p
+
+#experience .semibold p
 {
     margin: 0;
     text-align: left;
@@ -139,6 +145,13 @@ section
 {
        margin-top: 70px;
 }
+#aboutus #square {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    border: 5px solid #cee002;
+    margin-top: -10px;
+   }
 .flotte
 {
     float:right;
